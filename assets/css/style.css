@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+}
+
+.crys {
+    max-width: 5%;
+    max-height: 5%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.crys1 {
+    margin-left: 2%;
+}
+
+h1 {
+    margin-left: 2%;
+    background: rgba(223, 175, 19, 0.979);
+    color: white;
+    max-width: 30%;
+    padding: 3%;
+    text-align: center;
+}
+
+p {
+    padding: 3%;
+    font-size: 15px;
+}
+
+h3 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+#instru {
+    margin-left: 2%;
+    background: rgb(196, 182, 105);
+    max-width: 40%;
+    float: left;
+}
+
+p {
+    line-height: 2;
+}
+
+#currNum {
+    font-size: 50px;
+    color: white;
+    margin-top: 3%;
+    max-width: 88%;
+    margin-left: 8.5%;
+    height: 150px;
+    padding-left: 4%; 
+    padding-top: 4%;
+    background: rgb(10, 94, 10);
+}
+
+
+#winLoss {
+    margin-top: 5%;
+    max-width: 46%;
+    height: 150px;
+    margin-left: -14%;
+    padding-left: 4%; 
+    padding-top: 4%;
+    color: white;  
+    background: rgb(0, 183, 255);
+}
+
+#statement {
+    background: rgb(7, 107, 29);
+    color: white;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 40px;
+    padding-left: 4%; 
+    padding-top: 1%;
+}
+
+#score {
+    font-size: 50px;
+    background: rgb(7, 107, 29);
+    color: white;
+    margin: 5% 0 3% 8%;
+    height: 150px;
+    padding-left: 4%; 
+    padding-top: 4%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 4 Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head> 
+<h1 id="gameName">Crystals Collector</h1> 
+<body>
+    <div class="row">
+            <div class="col-12 r1c1">
+                <div id="instru">
+                    <h3>Instructions</h3>
+                    <p>
+                    You will be give a random number at the start of the game.<br>
+                    <br>
+                    There are four Crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.<br>
+                    <br>
+                    You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number<br>
+                    <br>
+                    The value of each Crystal is hidden from you until you click on it.<br>
+                    <br>
+                    Each time when the game starts, the game will change the values of each Crystal.<br>
+                    <br> 
+                    </p>  
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 r2c1">
+            <div id="currNum">
+           
+            </div>
+        </div>
+        <div class="col-2 r2c2">
+            <div id="winLoss">
+                <div id="wins">Wins: </div><br><br>
+                <div id="losses">Losses: </div><br>
+            </div>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 r3c1">
+            <div class="gems">
+                <img class="crys crys1" src="./assets/images/crys1.jpg" alt="crystal 1"> 
+                <img class="crys crys2" src="./assets/images/crys2.jpg" alt="crystal 2"> 
+                <img class="crys crys3" src="./assets/images/crys3.jpg" alt="crystal 3"> 
+                <img class="crys crys4" src="./assets/images/crys4.jpg" alt="crystal 4"> 
+            </div>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 r4c1">
+            <div id="statement">
+            Your Total Score Is: 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 r5c1">
+            <div id="score">
+            
+            </div>
+        </div>
+    </div>
+
+
+<script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
