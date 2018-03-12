@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg.png");
 }
 
 .crys {
@@ -19,8 +19,9 @@ body {
 
 h1 {
     margin-left: 2%;
-    background: rgba(223, 175, 19, 0.979);
-    color: white;
+    background-image: url("../images/bg3.jpg");
+    color: darkred;
+    text-shadow: 3px 3px white;
     max-width: 30%;
     padding: 3%;
     text-align: center;
@@ -38,7 +39,7 @@ h3 {
 
 #instru {
     margin-left: 2%;
-    background: rgb(196, 182, 105);
+    background-image: url("../images/bg2.jpg");
     max-width: 40%;
     float: left;
 }
@@ -56,9 +57,8 @@ p {
     height: 150px;
     padding-left: 4%; 
     padding-top: 4%;
-    background: rgb(10, 94, 10);
+    background-image: url("../images/bg4.jpg");
 }
-
 
 #winLoss {
     margin-top: 5%;
@@ -72,7 +72,7 @@ p {
 }
 
 #statement {
-    background: rgb(7, 107, 29);
+    background-image: url("../images/bg4.jpg");
     color: white;
     margin-top: 5%;
     margin-left: 8%;
@@ -83,7 +83,7 @@ p {
 
 #score {
     font-size: 50px;
-    background: rgb(7, 107, 29);
+    background-image: url("../images/bg4.jpg");
     color: white;
     margin: 5% 0 3% 8%;
     height: 150px;
