@@ -12,6 +12,7 @@ body {
     text-align: center;
     color: white;
     margin: 2% 0 2% 0;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .instructions {
@@ -38,6 +39,7 @@ h2 {
     text-align: center;
     color: yellow;
     text-shadow: red 1px 1px;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .winLoss {
