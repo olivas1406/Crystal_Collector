@@ -24,9 +24,9 @@ $(document).ready(function(){
         
     var cNumber = numbersTarget[Math.floor(Math.random() * numbersTarget.length)];          // Generates random number to guess
     
-    $(".num1").html(cNumber);                                                               // Push to HTML (inital value)
+    $(".num1").html("Target Number " + cNumber);                                            // Push to HTML (inital value)
 
-    $(".num2").html(runTotal);                                                              // Push the running total to the HTML
+    $(".num2").html("Your Score " + runTotal);                                              // Push the running total to the HTML
     
     $(".win").html("Wins: " + wins);                                                        // Push 0 to HTML wins (initial value)
     
@@ -52,10 +52,10 @@ $(document).ready(function(){
 
     function resetg() {                                                                     // Function to reset the game after win or loss
         runTotal = 0;                                                                       // Resets the running total to 0
-        $(".num2").html(runTotal);                                                          // Pushes the running total to the HTML
+        $(".num2").html("Your Score " + runTotal);                                                          // Pushes the running total to the HTML
         cry();                                                                              // Calls the function to generate new random numbers for the crystals
         cNumber = numbersTarget[Math.floor(Math.random() * numbersTarget.length)];          // Generates new random number to guess
-        $(".num1").html(cNumber);                                                           // Pushes the new random number to the HTML
+        $(".num1").html("Target Number " + cNumber);                                        // Pushes the new random number to the HTML
     };
 
     function status() {                                                                     // Function to check for win/loss
@@ -68,7 +68,7 @@ $(document).ready(function(){
         $(".loss").html("Losses: " + losses);                                               // Push losses to the HTML
         resetg();                                                                           // Call the reset game function
         } else {                                                                            // Else - if neither conditions are true
-        $(".num2").html(runTotal);                                                          // Push the new running total to the HTML
+        $(".num2").html("Your Score " + runTotal);                                          // Push the new running total to the HTML
         }
     }
 
