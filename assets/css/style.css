@@ -91,6 +91,7 @@ h2 {
 .crys {
     width: 18%;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .rando {
