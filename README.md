@@ -7,8 +7,14 @@ Crystals Collector Game
 This game has four Crystals to choose from, each with a different, randomly assigned value - which changes each time your play.  You 
 click on a crystal to increment your score, the goal being to exactly match the number shown.
 
-This page was created and is maintained by Daniel Olivas, to get help:
+---
+[CLICK ME to see it in action](https://infinite-brushlands-54962.herokuapp.com/)
+<br><br>
+---
+![Crystals Collector Screen Cap](./cc.png)
 
-president@computersoluciones.us
+This project was created and is maintained by Daniel Olivas
 
-https://www.linkedin.com/in/daniel-olivas/
+To get help:<br><br>
+me@danielolivas.net<br>
+http://danielolivas.net
