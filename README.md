@@ -8,7 +8,7 @@ This game has four Crystals to choose from, each with a different, randomly assi
 click on a crystal to increment your score, the goal being to exactly match the number shown.
 
 ---
-[CLICK ME to see it in action](https://infinite-brushlands-54962.herokuapp.com/)
+[CLICK ME to see it in action](https://olivas1406.github.io/Crystal_Collector/)
 <br><br>
 ---
 ![Crystals Collector Screen Cap](./cc.png)
